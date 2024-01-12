@@ -1,3 +1,56 @@
 body {
-  background-color: mediumpurple;
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgba( 255, 255, 255, 0.25 );
+  padding: 50px;
+}
+
+.card {
+  flex: 1 1 initial;
+  width: 30%;
+  margin-bottom: 50px;
+  border: 1px solid lightblue;
+}
+
+.card img {
+  width: 70%;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.card>header {
+  text-align: center;
+  border: 1px dotted black;
+}
+
+.section1 p {
+  text-align: justify;
+  padding: 10px;
+}
+
+
+.availability {
+  background-color: darkgray;
+  color: yellow;
+  font-size: medium;
+  padding: 3px;
+}
+
+.specs, .section3>header{
+  font-size: larger;
+  margin: 10px 0px 5px 0px;
+  padding: 0px 10px;
+}
+
+.quantity, .size, .weight {
+  font-weight: bold;
+  padding: 2px 10px;
 }
